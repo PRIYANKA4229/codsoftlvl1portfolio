@@ -47,11 +47,11 @@ nav {
 .logo {
     width: 150px;
     height: 150px;
-    background: url('https://assets.onecompiler.app/42q457vx6/42rd6upnv/20240906_185337.jpg') 
-    no-repeat center center;
+    background: url('https://assets.onecompiler.app/42q457vx6/42rd6upnv/20240906_185337.jpg') no-repeat center center;
     background-size: contain;
-    align:center
+  
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -67,10 +67,6 @@ nav {
     color: #5d9cec;
 }
 
-.burger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
 }
 
 .burger div {
