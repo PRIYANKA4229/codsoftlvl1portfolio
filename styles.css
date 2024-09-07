@@ -84,31 +84,31 @@ nav {
     color: #fff;
 }
 
-.hero.h1 {
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: pink;
+}
+
+#typewriter {
     font-size: 3em;
     color: black;
+    margin-bottom: 20px;
+    white-space: nowrap;
     overflow: hidden;
-    border-right: 0.15em solid black; /* Cursor effect */
-    white-space: nowrap; /* Keeps the text in one line */
-    letter-spacing: 0.15em;
-    animation: typing 4s steps(22) 1s forwards, blink 0.75s step-end infinite;
+    border-right: .15em solid black;
+    animation: typing 4s steps(40, end);
 }
 
 @keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
+    from { width: 0; }
+    to { width: 100%; }
 }
 
 @keyframes blink {
-    50% {
-        border-color: transparent;
-    }
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
 }
-
 
 .hero p {
     font-size: 1.2em;
