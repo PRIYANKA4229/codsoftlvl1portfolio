@@ -45,13 +45,10 @@ nav {
 }
 
 .logo {
-    width: 250px;
-    height: 450px;
+    width: 150px;
+    height: 250px;
     background: url('https://assets.onecompiler.app/42q457vx6/42rd6upnv/20240906_185337.jpg') no-repeat center cente;
         background-size: contain;
-
-        background-position: center;
-
 }
   
 }
