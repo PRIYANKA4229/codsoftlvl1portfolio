@@ -57,7 +57,7 @@ nav {
 .nav-links {
     list-style: none; /* Remove bullet points */
     display: flex; /* Flex layout to align items horizontally */
-    gap: 20px; /* Space between the links */
+    gap: 10px; /* Space between the links */
 }
 
 .nav-links li a {
@@ -84,12 +84,31 @@ nav {
     color: #fff;
 }
 
-.hero h1 {
+.hero.h1 {
     font-size: 3em;
     color: black;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-right: 0.15em solid black; /* Cursor effect */
+    white-space: nowrap; /* Keeps the text in one line */
+    letter-spacing: 0.15em;
+    animation: typing 4s steps(22) 1s forwards, blink 0.75s step-end infinite;
 }
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 
 .hero p {
     font-size: 1.2em;
