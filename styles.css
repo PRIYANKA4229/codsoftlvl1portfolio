@@ -37,28 +37,27 @@ header {
     position: relative;
 }
 
+/* Add flexbox to the nav to align logo and links */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between the logo and links */
+    align-items: center; /* Align items vertically */
     padding: 20px;
 }
 
-.logo :hover{
+/* Style for the logo */
+.logo {
     width: 150px;
     height: 150px;
     background: url('https://assets.onecompiler.app/42q457vx6/42rd6upnv/20240906_185337.jpg') no-repeat center center;
     background-size: contain;
-      
-  
-}
-  
 }
 
+/* Style for the navigation links */
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flex layout to align items horizontally */
+    gap: 20px; /* Space between the links */
 }
 
 .nav-links li a {
@@ -70,9 +69,6 @@ nav {
     color: #5d9cec;
 }
 
-}
-
-.burger div {
     width: 25px;
     height: 3px;
     background-color: #333;
