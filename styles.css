@@ -45,15 +45,14 @@ nav {
 }
 
 .parent-container {
-    display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
+    height: 50vh; /* Full viewport height */
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 50px;
     background: url('https://assets.onecompiler.app/42q457vx6/42rd6upnv/20240906_185337.jpg') no-repeat center center;
     background-size: contain;
 }
